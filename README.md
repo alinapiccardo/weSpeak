@@ -1,4 +1,4 @@
-### WeSpeak Counter
+# WeSpeak Counter
 
 Este proyecto es un contador interactivo desarrollado como parte del challenge técnico para WeSpeak.
 
@@ -9,26 +9,26 @@ Este proyecto es un contador interactivo desarrollado como parte del challenge t
 
 ## Instalación
 
-# Clonar el repositorio:
+### Clonar el repositorio:
 
 ```bash
 git clone https://github.com/usuario/wespeak-counter.git
 cd wespeak-counter
 ```
 
-# Instalar las dependencias:
+### Instalar las dependencias:
 
 ```bash
 npm install
 ```
 
-# Configurar la base de datos:
+### Configurar la base de datos:
 
 ```bash
 npx prisma migrate dev --name init
 ```
 
-# Iniciar la aplicación:
+### Iniciar la aplicación:
 
 ```bash
 npm run dev
@@ -50,6 +50,7 @@ Tailwind CSS
 
 ## Estructura del Proyecto
 
+```bash
 📂 wespeak-counter/
 ├── 📂 src/
 │   ├── 📂 app/
@@ -66,5 +67,5 @@ Tailwind CSS
 ├── 📄 .env
 ├── 📄 package.json
 ├── 📄 README.md
-
+```
 ### ¡Gracias! 🚀
