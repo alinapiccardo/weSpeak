@@ -17,3 +17,11 @@ export async function updateCounter(increment) {
   });
   return counter.value;
 }
+
+export async function resetCounter() {
+  const counter = await prisma.counter.update({
+    where: { id: 1 },
+    data: { value: 0 },
+  });
+  return counter.value;
+}
