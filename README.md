@@ -38,15 +38,15 @@ La aplicación estará disponible en http://localhost:3000/.
 
 ## Uso
 
-+ Aumentar: Incrementa el contador en 1.
-- Disminuir: Decrementa el contador en 1.
-Reset: Reinicia el contador a 0.
+- + Aumentar: Incrementa el contador en 1.
+- - Disminuir: Decrementa el contador en 1.
+- Reset: Reinicia el contador a 0.
 
 ## Tecnologías Utilizadas
-Next.js 14
-Prisma ORM
-SQLite
-Tailwind CSS
+- Next.js
+- Prisma ORM
+- SQLite
+- Tailwind CSS
 
 ## Estructura del Proyecto
 
