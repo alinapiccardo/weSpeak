@@ -12,8 +12,8 @@ Este proyecto es un contador interactivo desarrollado como parte del challenge t
 ### Clonar el repositorio:
 
 ```bash
-git clone https://github.com/usuario/wespeak-counter.git
-cd wespeak-counter
+git clone https://github.com/alinapiccardo/weSpeak.git
+cd contador-ws
 ```
 
 ### Instalar las dependencias:
