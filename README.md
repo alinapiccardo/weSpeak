@@ -22,6 +22,13 @@ cd contador-ws
 npm install
 ```
 
+### Configurar las variables de entorno:
+Crea un archivo `.env` en la raíz del proyecto y agrega la siguiente línea:
+
+```env
+DATABASE_URL="file:./prisma/dev.db"
+```
+
 ### Configurar la base de datos:
 
 ```bash
