@@ -13,7 +13,7 @@ Este proyecto es un contador interactivo desarrollado como parte del challenge t
 
 ```bash
 git clone https://github.com/alinapiccardo/weSpeak.git
-cd contador-ws
+cd weSpeak/contador-ws
 ```
 
 ### Instalar las dependencias:
