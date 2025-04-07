@@ -64,13 +64,23 @@ La aplicación estará disponible en http://localhost:3000/.
 │   │   ├── 📄 layout.js
 │   │   ├── 📄 page.js
 │   │   ├── 📂 api/
-│   │   │   ├── 📄 actions.js
+│   │   │   ├── 📂 actions/
+│   │   │   │   ├── 📄 getCounter.js
+│   │   │   │   ├── 📄 increaseCounter.js
+│   │   │   │   ├── 📄 decreaseCounter.js
+│   │   │   │   ├── 📄 resetCounter.js
+│   │   │   │   ├── 📄 index.js
+│   │   │   ├── 📄 prisma.js
 │   │   ├── 📂 components/
 │   │   │   ├── 📄 Counter.js
+│   │   │   ├── 📂 buttons/
+│   │   │   │   ├── 📄 IncreaseButton.js
+│   │   │   │   ├── 📄 DecreaseButton.js
+│   │   │   │   ├── 📄 ResetButton.js
 ├── 📂 prisma/
 │   ├── 📄 schema.prisma
 │   ├── 📂 migrations/
-│   │   │   ├── 📄 migration.sql
+│   │   ├── 📄 migration.sql
 ├── 📄 .env
 ├── 📄 package.json
 ├── 📄 README.md
